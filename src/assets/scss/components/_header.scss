@@ -1,6 +1,5 @@
 .header {
   background: $very-light-gray-color;
-  border: 1px solid $dark-violet-color;
   position: sticky;
   top: 0;
   left: 0;
@@ -14,7 +13,7 @@
   }
 
   &__menu {
-    visibility: visible;
+    visibility: hidden;
     position: absolute;
     left: 0;
     right: 0;
@@ -53,10 +52,9 @@
   }
 }
 
-
 .menu-open {
   width: 30px;
   height: 30px;
-  background: url("../img/icon-close.svg") no-repeat center;
+  background: url("../img/icon-hamburger.svg") no-repeat center;
   background-size: contain;
 }

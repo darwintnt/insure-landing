@@ -1,0 +1,43 @@
+.footer {
+  // height: 100vh;
+  padding: 5em 0;
+  background: url("../img/bg-pattern-footer-mobile.svg") 0 0 no-repeat;
+  background-color: $very-light-gray-color;
+  text-align: center;
+
+  &__social {
+    margin: 2em 0;
+
+    &--link:not(:last-child) {
+      margin-right: 12px;
+    }
+  }
+
+  &__menu {
+    &--title {
+      display: inline-block;
+      color: $grayish-blue-color;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin: 2em 0;
+    }
+  }
+
+  li {
+
+    margin: 1em 0;
+
+    a {
+      color: $dark-violet-color;
+      display: block;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 1em;
+      font-weight: 700;
+    }
+  }
+
+
+}

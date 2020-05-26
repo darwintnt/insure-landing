@@ -1,0 +1,98 @@
+%title {
+  font-size: 2.5em;
+  color: $very-light-gray-color;
+  line-height: 1.1em;
+  font-weight: 400;
+}
+
+%text {
+  padding-top: 1em;
+  padding-bottom: 2em;
+  color: $very-light-gray-color;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+.hero {
+
+  background: url("../img/bg-pattern-intro-left-mobile.svg") 0 59% no-repeat,
+              url("../img/bg-pattern-intro-right-mobile.svg") 100% 130% no-repeat;
+  background-color: $dark-violet-color;
+
+  &__image {
+    width: 100%;
+  }
+
+  &__container {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    text-align: center;
+  }
+
+  &__title {
+    @extend %title;
+
+    &-light {
+      @extend %title;
+      color: $very-dark-violet-color;
+      letter-spacing: 0;
+
+      &-small {
+        font-size: 1.7em;
+        font-weight: 400;
+      }
+    }
+  }
+
+  &__text {
+    @extend %text;
+
+    &-light {
+      @extend %text;
+      color: $dark-grayish-violet-color;
+      font-size: 1em;
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    color: $very-light-gray-color;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: .7em 2em;
+    border: 1px solid $very-light-gray-color;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  &__icon {
+    padding-bottom: 2em;
+  }
+
+  &__card {
+    padding-top: 2em;
+  }
+}
+
+.padding-custom {
+  padding: 2em 0 1em 0;
+}
+
+.m-1 {
+  margin-bottom: 1em;
+}
+
+.m-3 {
+  margin: 1.3em;
+}
+
+.section__card__find {
+  background-image: url("../img/bg-pattern-how-we-work-mobile.svg");
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
